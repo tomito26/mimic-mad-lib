@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A fantastical adventure</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container bg-secondary">
+        <h1  class="text-center">Fill in the blanks to write your story!</h1>
+        <div id="blanks">
+            <form class="d-flex flex-column align-items-center">
+                <div class="form-grup w-25">
+                    <label for="person1">A name</label>
+                    <input type="text" id="person1" class="form-control">
+
+                </div>
+                <div class="form-group w-25">
+                    <label for="person2">Another name</label>
+                    <input type="text"  id="person2" class="form-control">
+                </div>
+                <div class="form-group w-25">
+                    <label for="animal">An animal</label>
+                    <input type="text" id="animal" class="form-control">
+                </div>
+                <div class="form-group w-25">
+                    <label for="exclamation">An exclamation</label>
+                    <input type="text" id="exclamation" class="form-control">
+                </div>
+                <div class="form-group w-25">
+                    <label for="verb">A past tense verb</label>
+                    <input type="text"  id="verb" class="form-control">
+                </div>
+                <div class="form-group w-25">
+                    <label for="noun">A noun</label>
+                    <input type="text" id="noun" class="form-control">
+                </div>                                
+                <button type="submit" class="btn">Show me the story!</button>
+            </form>
+        </div>
+        <div id="story">
+            <h1 class="text-center">A fantastical adventure</h1>
+            <p>One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.</p>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
